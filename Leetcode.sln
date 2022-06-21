@@ -10,9 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_TwoSum", "1_TwoSum", "{80
 		TaskСondition.txt = TaskСondition.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "src\Easy\1_TwoSum\TwoSum\TwoSum.csproj", "{285B491C-1F7B-4935-8D03-9C395158A6EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "src\Easy\1_TwoSum\TwoSum\TwoSum.csproj", "{285B491C-1F7B-4935-8D03-9C395158A6EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSumTests", "src\Easy\1_TwoSum\TwoSumTests\TwoSumTests.csproj", "{606D9234-BB50-4225-926C-5A53C5542EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSumTests", "src\Easy\1_TwoSum\TwoSumTests\TwoSumTests.csproj", "{606D9234-BB50-4225-926C-5A53C5542EA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9_PalindromeNumber", "9_PalindromeNumber", "{2BAA57DE-BC45-4E46-B2FD-D203827C49D5}"
+	ProjectSection(SolutionItems) = preProject
+		TastCondition.txt = TastCondition.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "src\Easy\9_PalindromeNumber\PalindromeNumber\PalindromeNumber.csproj", "{4F00C57D-0BAE-4965-B119-EA57906BF6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumberTests", "src\Easy\9_PalindromeNumber\PalindromeNumberTests\PalindromeNumberTests.csproj", "{A2DD834B-AC79-43C1-A320-2678CDE65EC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +37,14 @@ Global
 		{606D9234-BB50-4225-926C-5A53C5542EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{606D9234-BB50-4225-926C-5A53C5542EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{606D9234-BB50-4225-926C-5A53C5542EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F00C57D-0BAE-4965-B119-EA57906BF6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F00C57D-0BAE-4965-B119-EA57906BF6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F00C57D-0BAE-4965-B119-EA57906BF6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F00C57D-0BAE-4965-B119-EA57906BF6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DD834B-AC79-43C1-A320-2678CDE65EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DD834B-AC79-43C1-A320-2678CDE65EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DD834B-AC79-43C1-A320-2678CDE65EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DD834B-AC79-43C1-A320-2678CDE65EC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +53,9 @@ Global
 		{809E9AC5-ED46-4466-A43A-22C338732A48} = {1101E6C5-3AEB-4465-8485-F670CE020BE0}
 		{285B491C-1F7B-4935-8D03-9C395158A6EA} = {809E9AC5-ED46-4466-A43A-22C338732A48}
 		{606D9234-BB50-4225-926C-5A53C5542EA7} = {809E9AC5-ED46-4466-A43A-22C338732A48}
+		{2BAA57DE-BC45-4E46-B2FD-D203827C49D5} = {1101E6C5-3AEB-4465-8485-F670CE020BE0}
+		{4F00C57D-0BAE-4965-B119-EA57906BF6AE} = {2BAA57DE-BC45-4E46-B2FD-D203827C49D5}
+		{A2DD834B-AC79-43C1-A320-2678CDE65EC0} = {2BAA57DE-BC45-4E46-B2FD-D203827C49D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4555FD3-376B-4D00-B855-B54DDA1BEF81}
