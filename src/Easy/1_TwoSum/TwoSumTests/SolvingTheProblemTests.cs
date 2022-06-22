@@ -68,5 +68,15 @@ namespace TwoSumTests
 
             Assert.Equal(numbers, new int[] { 0, 1 });
         }
+
+        public void TwoSum7()
+        {
+            var array = new int[] { 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1 };
+            int target = 9;
+
+            var numbers = SolvingTheProblem.TwoPassHashTable1(array, target);
+
+            Assert.Equal(numbers, new int[] { 5, 11 });
+        }
     }
 }

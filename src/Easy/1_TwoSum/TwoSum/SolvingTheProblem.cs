@@ -82,5 +82,23 @@ namespace TwoSum
             // In case there is no solution, we'll just return null
             return null;
         }
+
+        public static int[] TwoPassHashTable1(int[] nums, int target)
+        {
+            var mapper = new Dictionary<int, int>();
+            int numLength = nums.Length;
+            for (int i = 0; i < numLength; i++)
+            {
+                if (!mapper.ContainsKey(target - nums[i]))
+                {
+                    mapper.Add(nums[i], i);
+                }
+                else
+                {
+                    return new int[] { i, mapper[target - nums[i]] };
+                }
+            }
+            return null;
+        }
     }
 }
