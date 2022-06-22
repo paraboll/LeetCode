@@ -23,6 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "src\Eas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumberTests", "src\Easy\9_PalindromeNumber\PalindromeNumberTests\PalindromeNumberTests.csproj", "{A2DD834B-AC79-43C1-A320-2678CDE65EC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13_RomanToInteger", "13_RomanToInteger", "{9C7A38E9-15B5-4E3D-AADC-73A2AC93C3AF}"
+	ProjectSection(SolutionItems) = preProject
+		TaskCondition.txt = TaskCondition.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "src\Easy\13_RomanToInteger\RomanToInteger\RomanToInteger.csproj", "{1F81D874-C5D3-4436-B4E5-52642CB1C868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToIntegerTests", "src\Easy\13_RomanToInteger\RomanToIntegerTests\RomanToIntegerTests.csproj", "{9DD329EC-06CB-4876-9CAB-B452843CE9CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +54,14 @@ Global
 		{A2DD834B-AC79-43C1-A320-2678CDE65EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2DD834B-AC79-43C1-A320-2678CDE65EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2DD834B-AC79-43C1-A320-2678CDE65EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F81D874-C5D3-4436-B4E5-52642CB1C868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F81D874-C5D3-4436-B4E5-52642CB1C868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F81D874-C5D3-4436-B4E5-52642CB1C868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F81D874-C5D3-4436-B4E5-52642CB1C868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD329EC-06CB-4876-9CAB-B452843CE9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD329EC-06CB-4876-9CAB-B452843CE9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD329EC-06CB-4876-9CAB-B452843CE9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD329EC-06CB-4876-9CAB-B452843CE9CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +73,9 @@ Global
 		{2BAA57DE-BC45-4E46-B2FD-D203827C49D5} = {1101E6C5-3AEB-4465-8485-F670CE020BE0}
 		{4F00C57D-0BAE-4965-B119-EA57906BF6AE} = {2BAA57DE-BC45-4E46-B2FD-D203827C49D5}
 		{A2DD834B-AC79-43C1-A320-2678CDE65EC0} = {2BAA57DE-BC45-4E46-B2FD-D203827C49D5}
+		{9C7A38E9-15B5-4E3D-AADC-73A2AC93C3AF} = {1101E6C5-3AEB-4465-8485-F670CE020BE0}
+		{1F81D874-C5D3-4436-B4E5-52642CB1C868} = {9C7A38E9-15B5-4E3D-AADC-73A2AC93C3AF}
+		{9DD329EC-06CB-4876-9CAB-B452843CE9CA} = {9C7A38E9-15B5-4E3D-AADC-73A2AC93C3AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4555FD3-376B-4D00-B855-B54DDA1BEF81}
