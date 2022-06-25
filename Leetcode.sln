@@ -41,7 +41,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Spreadsheet", "2_Spreadsh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpreadSheet", "src\Ozon\2_Spreadsheet\SpraidSheet\SpreadSheet.csproj", "{F7A45977-ABB3-4A01-943C-974558702083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpreadSheetTests", "src\Ozon\2_Spreadsheet\SpreadSheetTests\SpreadSheetTests.csproj", "{EC5E475B-D7D6-4B41-9CCD-C1F44C47233A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpreadSheetTests", "src\Ozon\2_Spreadsheet\SpreadSheetTests\SpreadSheetTests.csproj", "{EC5E475B-D7D6-4B41-9CCD-C1F44C47233A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_RegistrationSubsystem", "3_RegistrationSubsystem", "{0B55340B-50D7-48A4-A827-DD235054B914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationSubsystem", "src\Ozon\3_RegistrationSubsystem\RegistrationSubsystem\RegistrationSubsystem.csproj", "{A9A18400-F1E4-4918-98A7-CC26405F18C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationSubsystemTests", "src\Ozon\3_RegistrationSubsystem\RegistrationSubsystemTests\RegistrationSubsystemTests.csproj", "{A6C33997-459D-499A-9021-DFEAAE8703DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +103,14 @@ Global
 		{EC5E475B-D7D6-4B41-9CCD-C1F44C47233A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC5E475B-D7D6-4B41-9CCD-C1F44C47233A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC5E475B-D7D6-4B41-9CCD-C1F44C47233A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A18400-F1E4-4918-98A7-CC26405F18C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A18400-F1E4-4918-98A7-CC26405F18C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A18400-F1E4-4918-98A7-CC26405F18C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A18400-F1E4-4918-98A7-CC26405F18C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C33997-459D-499A-9021-DFEAAE8703DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C33997-459D-499A-9021-DFEAAE8703DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C33997-459D-499A-9021-DFEAAE8703DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C33997-459D-499A-9021-DFEAAE8703DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +134,9 @@ Global
 		{B42E5D75-3431-4D3F-A5B4-D1F9C136C9C7} = {01A8E500-0A83-48C8-9055-138925EC2EDE}
 		{F7A45977-ABB3-4A01-943C-974558702083} = {B42E5D75-3431-4D3F-A5B4-D1F9C136C9C7}
 		{EC5E475B-D7D6-4B41-9CCD-C1F44C47233A} = {B42E5D75-3431-4D3F-A5B4-D1F9C136C9C7}
+		{0B55340B-50D7-48A4-A827-DD235054B914} = {01A8E500-0A83-48C8-9055-138925EC2EDE}
+		{A9A18400-F1E4-4918-98A7-CC26405F18C5} = {0B55340B-50D7-48A4-A827-DD235054B914}
+		{A6C33997-459D-499A-9021-DFEAAE8703DB} = {0B55340B-50D7-48A4-A827-DD235054B914}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4555FD3-376B-4D00-B855-B54DDA1BEF81}
