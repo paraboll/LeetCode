@@ -45,23 +45,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpreadSheetTests", "src\Ozo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_RegistrationSubsystem", "3_RegistrationSubsystem", "{0B55340B-50D7-48A4-A827-DD235054B914}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationSubsystem", "src\Ozon\3_RegistrationSubsystem\RegistrationSubsystem\RegistrationSubsystem.csproj", "{A9A18400-F1E4-4918-98A7-CC26405F18C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationSubsystem", "src\Ozon\3_RegistrationSubsystem\RegistrationSubsystem\RegistrationSubsystem.csproj", "{A9A18400-F1E4-4918-98A7-CC26405F18C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationSubsystemTests", "src\Ozon\3_RegistrationSubsystem\RegistrationSubsystemTests\RegistrationSubsystemTests.csproj", "{A6C33997-459D-499A-9021-DFEAAE8703DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationSubsystemTests", "src\Ozon\3_RegistrationSubsystem\RegistrationSubsystemTests\RegistrationSubsystemTests.csproj", "{A6C33997-459D-499A-9021-DFEAAE8703DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_AddressBook", "4_AddressBook", "{219C0D5D-B84D-4EF0-AD9A-CC2B26106505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "src\Ozon\4_AddressBook\AddressBook\AddressBook.csproj", "{166A3D76-7C11-4BF0-A9C1-6DD12A55BE3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook", "src\Ozon\4_AddressBook\AddressBook\AddressBook.csproj", "{166A3D76-7C11-4BF0-A9C1-6DD12A55BE3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookTests", "src\Ozon\4_AddressBook\AddressBookTests\AddressBookTests.csproj", "{22E15C42-3779-45E1-AECE-407B5587F8F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBookTests", "src\Ozon\4_AddressBook\AddressBookTests\AddressBookTests.csproj", "{22E15C42-3779-45E1-AECE-407B5587F8F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_TrainTicketSalesSystem", "5_TrainTicketSalesSystem", "{EE8EBC6F-AA61-4325-A37C-E4293A847684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainTicketSalesSystem", "src\Ozon\5_TrainTicketSalesSystem\TrainTicketSalesSystem\TrainTicketSalesSystem.csproj", "{E6BE57D4-2C6B-4829-A706-5CB9DCFEB941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainTicketSalesSystem", "src\Ozon\5_TrainTicketSalesSystem\TrainTicketSalesSystem\TrainTicketSalesSystem.csproj", "{E6BE57D4-2C6B-4829-A706-5CB9DCFEB941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainTicketSalesSystemTests", "src\Ozon\5_TrainTicketSalesSystem\TrainTicketSalesSystemTests\TrainTicketSalesSystemTests.csproj", "{6FE136A1-5653-4DED-8794-EB28780C98CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainTicketSalesSystemTests", "src\Ozon\5_TrainTicketSalesSystem\TrainTicketSalesSystemTests\TrainTicketSalesSystemTests.csproj", "{6FE136A1-5653-4DED-8794-EB28780C98CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmountToBePaidConsole", "src\Ozon\1_AmountToBePaid\AmountToBePaidConsole\AmountToBePaidConsole.csproj", "{DFB1A3BD-24A1-4F4B-BE30-1F319A6E5243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmountToBePaidConsole", "src\Ozon\1_AmountToBePaid\AmountToBePaidConsole\AmountToBePaidConsole.csproj", "{DFB1A3BD-24A1-4F4B-BE30-1F319A6E5243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Test", "0_Test", "{2EE2C270-2B5A-4EC7-8617-B85A925891E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "src\Ozon\0_Test\Test\Test.csproj", "{B2A6676F-E3EE-4DAC-BE46-91F4F9B7B668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpreadSheetConsole", "src\Ozon\2_Spreadsheet\SpreadSheetConsole\SpreadSheetConsole.csproj", "{99F6C124-2CF3-4662-9288-814CB806FE45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationSubsystemConsole", "src\Ozon\3_RegistrationSubsystem\RegistrationSubsystemConsole\RegistrationSubsystemConsole.csproj", "{8E95A054-129C-4316-A586-E52ACDF1CF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookConsole", "src\Ozon\4_AddressBook\AddressBookConsole\AddressBookConsole.csproj", "{929A6570-3070-4214-B42D-E5FAF3B2C34C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +155,22 @@ Global
 		{DFB1A3BD-24A1-4F4B-BE30-1F319A6E5243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFB1A3BD-24A1-4F4B-BE30-1F319A6E5243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFB1A3BD-24A1-4F4B-BE30-1F319A6E5243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A6676F-E3EE-4DAC-BE46-91F4F9B7B668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A6676F-E3EE-4DAC-BE46-91F4F9B7B668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A6676F-E3EE-4DAC-BE46-91F4F9B7B668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A6676F-E3EE-4DAC-BE46-91F4F9B7B668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F6C124-2CF3-4662-9288-814CB806FE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F6C124-2CF3-4662-9288-814CB806FE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F6C124-2CF3-4662-9288-814CB806FE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F6C124-2CF3-4662-9288-814CB806FE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E95A054-129C-4316-A586-E52ACDF1CF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E95A054-129C-4316-A586-E52ACDF1CF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E95A054-129C-4316-A586-E52ACDF1CF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E95A054-129C-4316-A586-E52ACDF1CF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929A6570-3070-4214-B42D-E5FAF3B2C34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929A6570-3070-4214-B42D-E5FAF3B2C34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929A6570-3070-4214-B42D-E5FAF3B2C34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929A6570-3070-4214-B42D-E5FAF3B2C34C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -178,6 +204,11 @@ Global
 		{E6BE57D4-2C6B-4829-A706-5CB9DCFEB941} = {EE8EBC6F-AA61-4325-A37C-E4293A847684}
 		{6FE136A1-5653-4DED-8794-EB28780C98CD} = {EE8EBC6F-AA61-4325-A37C-E4293A847684}
 		{DFB1A3BD-24A1-4F4B-BE30-1F319A6E5243} = {EF8C62C6-DA0C-4919-95CF-DC19C1753204}
+		{2EE2C270-2B5A-4EC7-8617-B85A925891E1} = {01A8E500-0A83-48C8-9055-138925EC2EDE}
+		{B2A6676F-E3EE-4DAC-BE46-91F4F9B7B668} = {2EE2C270-2B5A-4EC7-8617-B85A925891E1}
+		{99F6C124-2CF3-4662-9288-814CB806FE45} = {B42E5D75-3431-4D3F-A5B4-D1F9C136C9C7}
+		{8E95A054-129C-4316-A586-E52ACDF1CF2C} = {0B55340B-50D7-48A4-A827-DD235054B914}
+		{929A6570-3070-4214-B42D-E5FAF3B2C34C} = {219C0D5D-B84D-4EF0-AD9A-CC2B26106505}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4555FD3-376B-4D00-B855-B54DDA1BEF81}
