@@ -1,17 +1,16 @@
-using RomanToInteger;
-using System;
+﻿using CSharpProblems.Easy;
 using Xunit;
 
-namespace RomanToIntegerTests
+namespace CSharpProblemsTests.Easy
 {
-    public class SolvingTheProblemTests
+    public class Task13_RomanToIntegerTests
     {
         [Fact]
         public void RomanToInt()
         {
             var romanNumber = "MCMXCIV";
 
-            var decNumber = SolvingTheProblem.RomanToInt(romanNumber);
+            var decNumber = Task13_RomanToInteger.RomanToInt(romanNumber);
             Assert.Equal(1994, decNumber);
         }
 
@@ -20,7 +19,7 @@ namespace RomanToIntegerTests
         {
             var romanNumber = "LVIII";
 
-            var decNumber = SolvingTheProblem.RomanToInt(romanNumber);
+            var decNumber = Task13_RomanToInteger.RomanToInt(romanNumber);
             Assert.Equal(58, decNumber);
         }
 
@@ -29,7 +28,7 @@ namespace RomanToIntegerTests
         {
             var romanNumber = "III";
 
-            var decNumber = SolvingTheProblem.RomanToInt(romanNumber);
+            var decNumber = Task13_RomanToInteger.RomanToInt(romanNumber);
             Assert.Equal(3, decNumber);
         }
     }

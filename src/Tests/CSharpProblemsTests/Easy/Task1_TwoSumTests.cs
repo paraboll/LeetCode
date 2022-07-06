@@ -1,17 +1,16 @@
-using System;
-using TwoSum;
+﻿using CSharpProblems.Easy;
 using Xunit;
 
-namespace TwoSumTests
+namespace CSharpProblemsTests.Easy
 {
-    public class SolvingTheProblemTests
+    public class Task1_TwoSumTests
     {
         [Fact]
         public void TwoSum1()
         {
             var array = new int[] { 1, 2, 3, 4, 5 };
             int target = 7;
-            var numbers = SolvingTheProblem.TwoSum(array, target);
+            var numbers = Task1_TwoSum.TwoSum(array, target);
 
             Assert.Equal(numbers, new int[] { 1, 4 });
         }
@@ -19,9 +18,9 @@ namespace TwoSumTests
         [Fact]
         public void TwoSum2()
         {
-            var array = new int[] { 3,3 };
+            var array = new int[] { 3, 3 };
             int target = 6;
-            var numbers = SolvingTheProblem.TwoSum(array, target);
+            var numbers = Task1_TwoSum.TwoSum(array, target);
 
             Assert.Equal(numbers, new int[] { 0, 1 });
         }
@@ -31,7 +30,7 @@ namespace TwoSumTests
         {
             var array = new int[] { 3, 2, 4 };
             int target = 6;
-            var numbers = SolvingTheProblem.TwoSumAlgoritm(array, target);
+            var numbers = Task1_TwoSum.TwoSumAlgoritm(array, target);
 
             Assert.Equal(numbers, new int[] { 1, 2 });
         }
@@ -42,7 +41,7 @@ namespace TwoSumTests
             var array = new int[] { 3, 2, 4 };
             int target = 6;
 
-            var numbers = SolvingTheProblem.TwoPassHashTable(array, target);
+            var numbers = Task1_TwoSum.TwoPassHashTable(array, target);
 
             Assert.Equal(numbers, new int[] { 1, 2 });
         }
@@ -53,7 +52,7 @@ namespace TwoSumTests
             var array = new int[] { 3, 3 };
             int target = 6;
 
-            var numbers = SolvingTheProblem.TwoPassHashTable(array, target);
+            var numbers = Task1_TwoSum.TwoPassHashTable(array, target);
 
             Assert.Equal(numbers, new int[] { 0, 1 });
         }
@@ -64,17 +63,18 @@ namespace TwoSumTests
             var array = new int[] { 2, 7, 11, 15 };
             int target = 9;
 
-            var numbers = SolvingTheProblem.TwoPassHashTable(array, target);
+            var numbers = Task1_TwoSum.TwoPassHashTable(array, target);
 
             Assert.Equal(numbers, new int[] { 0, 1 });
         }
 
+        [Fact]
         public void TwoSum7()
         {
             var array = new int[] { 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1 };
             int target = 9;
 
-            var numbers = SolvingTheProblem.TwoPassHashTable1(array, target);
+            var numbers = Task1_TwoSum.TwoPassHashTable1(array, target);
 
             Assert.Equal(numbers, new int[] { 5, 11 });
         }

@@ -1,16 +1,15 @@
-using LongestCommonPrefix;
-using System;
+﻿using CSharpProblems.Easy;
 using Xunit;
 
-namespace LongestCommonPrefixTests
+namespace CSharpProblemsTests.Easy
 {
-    public class SolvingTheProblemTests
+    public class Task14_LongestCommonPrefixTests
     {
         [Fact]
         public void LongestCommonPrefix()
         {
             var strs = new string[] { "flower", "flow", "flight" };
-            var prefix = SolvingTheProblem.LongestCommonPrefix(strs);
+            var prefix = Task14_LongestCommonPrefix.LongestCommonPrefix(strs);
 
             Assert.Equal("fl", prefix);
         }
@@ -19,7 +18,7 @@ namespace LongestCommonPrefixTests
         public void LongestCommonPrefix1()
         {
             var strs = new string[] { "dog", "racecar", "car" };
-            var prefix = SolvingTheProblem.LongestCommonPrefix(strs);
+            var prefix = Task14_LongestCommonPrefix.LongestCommonPrefix(strs);
 
             Assert.Equal(string.Empty, prefix);
         }

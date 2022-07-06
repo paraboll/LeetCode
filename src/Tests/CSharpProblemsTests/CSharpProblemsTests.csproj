@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LongestCommonPrefix\LongestCommonPrefix.csproj" />
+    <ProjectReference Include="..\..\CSharpProblems\CSharpProblems.csproj" />
   </ItemGroup>
 
 </Project>
