@@ -2,10 +2,10 @@
 
 namespace SpraidSheet
 {
-    public static class SolvingTheProblem
+    public class SolvingTheProblem
     {
         //Счет столбца цели от 0.
-        public static int[,] SpreadSheet(int[,] table, int[] target)
+        public int[,] SpreadSheet(int[,] table, int[] target)
         {
             int rowCount = table.GetLength(0); // получаю длину строки.
             int[] col = new int[rowCount];
@@ -34,7 +34,7 @@ namespace SpraidSheet
             return table;
         }
 
-        public static int[,] SortAllTable(int[,] table)
+        public int[,] SortAllTable(int[,] table)
         {
             int colCount = table.GetLength(0);
             int rowCount = table.GetLength(1);

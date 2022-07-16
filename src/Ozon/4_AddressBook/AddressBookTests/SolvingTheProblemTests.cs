@@ -33,7 +33,7 @@ namespace AddressBookTests
                 { "test3", "25679" }, //старая
             };
 
-            var callNumbers = SolvingTheProblem.CallNumbers(numbers);
+            var callNumbers = new SolvingTheProblem().CallNumbers(numbers);
 
             var numbersTest1 = new string[] { "12341", "12344", "12347", "12344", "12348" };
             var numbersQueueTest1 = new Queue<string>(numbersTest1);

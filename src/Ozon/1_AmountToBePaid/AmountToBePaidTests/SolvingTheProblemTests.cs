@@ -11,7 +11,7 @@ namespace AmountToBePaidTests
         {
             var prices = new int[] { 1, 1, 1, 2, 2, 3, 4 };
 
-            var amountToBePaid = SolvingTheProblem.ProductSum(prices);
+            var amountToBePaid = new SolvingTheProblem().ProductSum(prices);
             Assert.Equal(13, amountToBePaid);
         }
 
@@ -20,7 +20,7 @@ namespace AmountToBePaidTests
         {
             var prices = new int[] { 1, 1, 1, 2, 2, 3, 4, 5,5,5, 1, 4};
 
-            var amountToBePaid = SolvingTheProblem.ProductSum(prices);
+            var amountToBePaid = new SolvingTheProblem().ProductSum(prices);
             Assert.Equal(28, amountToBePaid);
         }
     }

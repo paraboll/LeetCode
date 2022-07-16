@@ -11,7 +11,7 @@ namespace RegistrationSubsystemTests
         {
             var logins = new string[] { "Login1", "_login", "LogiN1", "Lo_gin", "l", "l1", "-l1", "lo-gin"};
 
-            var testValidLogins = SolvingTheProblem.LoginValidation(logins);
+            var testValidLogins = new SolvingTheProblem().LoginValidation(logins);
 
             var validLogins = new string[] { "Login1", "_login", "Lo_gin", "l1", "lo-gin"};
             Assert.Equal(validLogins, testValidLogins);

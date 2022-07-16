@@ -20,11 +20,11 @@ namespace CSharpProblems.Easy
 
     //    strs[i] consists of only lowercase English letters.
 
-    public static class Task14_LongestCommonPrefix
+    public class Task14_LongestCommonPrefix
     {
 		//Runtime: 151 ms, faster than 32.09% of C# online submissions for Longest Common Prefix.
 		//Memory Usage: 38.5 MB, less than 74.14% of C# online submissions for Longest Common Prefix.
-		public static string LongestCommonPrefix(string[] strs)
+		public string LongestCommonPrefix(string[] strs)
 		{
 			if (0 == strs.Length) return "";        //Check the boundary conditions.
 			if (strs[0].Length == 0) return "";

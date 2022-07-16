@@ -10,7 +10,7 @@ namespace CSharpProblemsTests.Easy
         {
             var romanNumber = "MCMXCIV";
 
-            var decNumber = Task13_RomanToInteger.RomanToInt(romanNumber);
+            var decNumber = new Task13_RomanToInteger().RomanToInt(romanNumber);
             Assert.Equal(1994, decNumber);
         }
 
@@ -19,7 +19,7 @@ namespace CSharpProblemsTests.Easy
         {
             var romanNumber = "LVIII";
 
-            var decNumber = Task13_RomanToInteger.RomanToInt(romanNumber);
+            var decNumber = new Task13_RomanToInteger().RomanToInt(romanNumber);
             Assert.Equal(58, decNumber);
         }
 
@@ -28,7 +28,7 @@ namespace CSharpProblemsTests.Easy
         {
             var romanNumber = "III";
 
-            var decNumber = Task13_RomanToInteger.RomanToInt(romanNumber);
+            var decNumber = new Task13_RomanToInteger().RomanToInt(romanNumber);
             Assert.Equal(3, decNumber);
         }
     }

@@ -30,11 +30,11 @@ namespace CSharpProblems.Easy
 
     //Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
-    public static class Task1_TwoSum
+    public class Task1_TwoSum
     {
         // Runtime: 368 ms, faster than 6.16% of C# online submissions for Two Sum.
         // Memory Usage: 42.6 MB, less than 87.83% of C# online submissions for Two Sum.
-        public static int[] TwoSum(int[] nums, int target) // O(n2)
+        public int[] TwoSum(int[] nums, int target) // O(n2)
         {
             for (int firstNumberIndex = 0; firstNumberIndex < nums.Length; firstNumberIndex++)
             {
@@ -55,7 +55,7 @@ namespace CSharpProblems.Easy
 
         //Runtime: 342 ms, faster than 8.46% of C# online submissions for Two Sum.
         //Memory Usage: 42.6 MB, less than 87.83% of C# online submissions for Two Sum.
-        public static int[] TwoSumAlgoritm(int[] nums, int target) // O(n2)
+        public int[] TwoSumAlgoritm(int[] nums, int target) // O(n2)
         {
             for (int firstNumberIndex = 0; firstNumberIndex < nums.Length; firstNumberIndex++)
             {
@@ -74,7 +74,7 @@ namespace CSharpProblems.Easy
         //решения с сайта.
         //Runtime: 291 ms, faster than 18.17% of C# online submissions for Two Sum.
         //Memory Usage: 42.8 MB, less than 73.39% of C# online submissions for Two Sum
-        public static int[] BruteForce(int[] nums, int target)
+        public int[] BruteForce(int[] nums, int target)
         {
             for (int i = 0; i < nums.Length; i++)
             {
@@ -89,7 +89,7 @@ namespace CSharpProblems.Easy
             return null;
         }
 
-        public static int[] TwoPassHashTable(int[] nums, int target)
+        public int[] TwoPassHashTable(int[] nums, int target)
         {
             var map = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
@@ -108,7 +108,7 @@ namespace CSharpProblems.Easy
             return null;
         }
 
-        public static int[] TwoPassHashTable1(int[] nums, int target)
+        public int[] TwoPassHashTable1(int[] nums, int target)
         {
             var mapper = new Dictionary<int, int>();
             int numLength = nums.Length;

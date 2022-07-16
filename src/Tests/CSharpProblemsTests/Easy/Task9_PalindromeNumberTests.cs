@@ -9,7 +9,7 @@ namespace CSharpProblemsTests.Easy
         public void TwoSum1()
         {
             int target = 14341;
-            var isPalindrome = Task9_PalindromeNumber.IsPalindrome(target);
+            var isPalindrome = new Task9_PalindromeNumber().IsPalindrome(target);
 
             Assert.False(isPalindrome);
         }

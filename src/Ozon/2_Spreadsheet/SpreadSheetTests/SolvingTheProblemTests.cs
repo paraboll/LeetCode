@@ -18,7 +18,7 @@ namespace SpreadSheetTests
 
             var target = new int[] { 1, 3 }; //счет от нуля.
 
-            var sortTable = SolvingTheProblem.SpreadSheet(array, target); 
+            var sortTable = new SolvingTheProblem().SpreadSheet(array, target); 
 
             var sortRightTable = new int[,]
             {
@@ -43,7 +43,7 @@ namespace SpreadSheetTests
 
             var target = new int[] { 0, 2}; //счет от нуля.
 
-            var sortTable = SolvingTheProblem.SpreadSheet(array, target);
+            var sortTable = new SolvingTheProblem().SpreadSheet(array, target);
 
             var sortRightTable = new int[,]
             {
@@ -68,7 +68,7 @@ namespace SpreadSheetTests
 
             var target = new int[] { 15, 0, -17 }; //счет от нуля.
 
-            var sortTable = SolvingTheProblem.SpreadSheet(array, target);
+            var sortTable = new SolvingTheProblem().SpreadSheet(array, target);
 
             var sortRightTable = new int[,]
             {

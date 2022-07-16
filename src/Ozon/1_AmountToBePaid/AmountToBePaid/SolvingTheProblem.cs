@@ -5,7 +5,7 @@ namespace AmountToBePaid
 {
     public class SolvingTheProblem
     {
-        public static int ProductSum(int[] prices)
+        public int ProductSum(int[] prices)
         {
             var dictionary = new Dictionary<int, int>();
 

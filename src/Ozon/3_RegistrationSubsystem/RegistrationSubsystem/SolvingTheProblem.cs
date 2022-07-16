@@ -5,9 +5,9 @@ using System.Text.RegularExpressions;
 
 namespace RegistrationSubsystem
 {
-    public static class SolvingTheProblem
+    public class SolvingTheProblem
     {
-        public static string[] LoginValidation(string[] logins)
+        public string[] LoginValidation(string[] logins)
         {
             var validLogins = new List<string>();
             for(int i = 0;i < logins.Length; i++)

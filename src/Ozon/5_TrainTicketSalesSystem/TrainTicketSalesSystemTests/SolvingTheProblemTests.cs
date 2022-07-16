@@ -9,6 +9,7 @@ namespace TrainTicketSalesSystemTests
         [Fact]
         public void ManagerSystemTests()
         {
+            var SolvingTheProblem = new SolvingTheProblem();
             SolvingTheProblem.ManagerSystem("çàíÿòü", 17);
             var trainCar = SolvingTheProblem.GetTrainÑar();
 

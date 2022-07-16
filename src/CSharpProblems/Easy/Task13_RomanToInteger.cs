@@ -45,9 +45,9 @@ namespace CSharpProblems.Easy
     //    s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
     // It is guaranteed that s is a valid roman numeral in the range[1, 3999].
 
-    public static class Task13_RomanToInteger
+    public class Task13_RomanToInteger
     {
-        public static int RomanToInt(string s)
+        public int RomanToInt(string s)
         {
             var RomanMap = new Dictionary<char, int>() {
                 {'I', 1    },

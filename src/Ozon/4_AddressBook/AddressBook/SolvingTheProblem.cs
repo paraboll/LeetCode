@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace AddressBook
 {
-    public static class SolvingTheProblem
+    public class SolvingTheProblem
     {
-        public static Dictionary<string, Queue<string>> CallNumbers(string[,] callNumbers)
+        public Dictionary<string, Queue<string>> CallNumbers(string[,] callNumbers)
         {
             var _callNumbers = new Dictionary<string, Queue<string>>();
 

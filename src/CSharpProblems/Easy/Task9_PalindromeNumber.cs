@@ -26,11 +26,11 @@ namespace CSharpProblems.Easy
 
     //Follow up: Could you solve it without converting the integer to a string?
 
-    public static class Task9_PalindromeNumber
+    public class Task9_PalindromeNumber
     {
         // Runtime: 82 ms, faster than 26.51% of C# online submissions for Palindrome Number.
         // Memory Usage: 28.4 MB, less than 59.90% of C# online submissions for Palindrome Number.
-        public static bool IsPalindrome(int x)
+        public bool IsPalindrome(int x)
         {
 
             if (x < 0 || (x % 10 == 0 && x != 0))
@@ -50,7 +50,7 @@ namespace CSharpProblems.Easy
 
         //Runtime: 72 ms, faster than 42.99% of C# online submissions for Palindrome Number.
         //Memory Usage: 28.3 MB, less than 69.28% of C# online submissions for Palindrome Number.
-        public static bool isPalindrome1(int num)
+        public bool isPalindrome1(int num)
         {
             if (num < 0) return false;
             int reversed = 0, remainder, original = num;
@@ -66,7 +66,7 @@ namespace CSharpProblems.Easy
 
         //Runtime: 103 ms, faster than 7.11% of C# online submissions for Palindrome Number.
         //Memory Usage: 28.2 MB, less than 77.45% of C# online submissions for Palindrome Number.
-        public static bool isPalindrome3(int x)
+        public bool isPalindrome3(int x)
         {
             var str = x.ToString();
             int start = 0;

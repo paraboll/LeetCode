@@ -4,13 +4,13 @@ using System.Linq;
 
 namespace TrainTicketSalesSystem
 {
-    public static class SolvingTheProblem
+    public class SolvingTheProblem
     {
         //Нет заполнения.
-        private static Dictionary<int, Room> _trainСar = new Dictionary<int, Room>();
-        private static int _trainСarSize = 10;
+        private Dictionary<int, Room> _trainСar = new Dictionary<int, Room>();
+        private int _trainСarSize = 10;
 
-        public static Dictionary<int, Room> ManagerSystem(string command, int param)
+        public Dictionary<int, Room> ManagerSystem(string command, int param)
         {
             if(command == "занять")
             {
@@ -28,7 +28,7 @@ namespace TrainTicketSalesSystem
             return null;
         }
 
-        private static void TakeSeat(int param)
+        private void TakeSeat(int param)
         {
             int numberCupe = param / 2;
             if (numberCupe > _trainСarSize)
@@ -46,7 +46,7 @@ namespace TrainTicketSalesSystem
             }
         }
 
-        private static void FreeUpSeat(int param)
+        private void FreeUpSeat(int param)
         {
             int numberCupe = param / 2;
             if (numberCupe > _trainСarSize)
@@ -64,7 +64,7 @@ namespace TrainTicketSalesSystem
             }
         }
 
-        private static void TakeRoom()
+        private void TakeRoom()
         {
             foreach (var item in _trainСar)
             {
@@ -77,7 +77,7 @@ namespace TrainTicketSalesSystem
             }
         }
 
-        public static Dictionary<int, Room> GetTrainСar()
+        public Dictionary<int, Room> GetTrainСar()
         {
             return _trainСar;
         }
