@@ -28,7 +28,7 @@ namespace CSharpProblems.Medium
     //Constraints:
 
     //    The number of nodes in each linked list is in the range [1, 100].
-	   // 0 <= Node.val <= 9
+	//      0 <= Node.val <= 9
 
     //    It is guaranteed that the list represents a number that does not have leading zeros.
 
@@ -46,6 +46,8 @@ namespace CSharpProblems.Medium
             }
         }
 
+        //Runtime: 143 ms, faster than 45.05% of C# online submissions for Add Two Numbers.
+        //Memory Usage: 39.6 MB, less than 25.89% of C# online submissions for Add Two Numbers.
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             int carry = 0;
