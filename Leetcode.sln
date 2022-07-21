@@ -53,6 +53,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45C24CCD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpProblemsTests", "src\Tests\CSharpProblemsTests\CSharpProblemsTests.csproj", "{7EB5E9CC-B715-45D2-9739-48C110F673F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlTasks", "SqlTasks", "{C9324E4D-F9BB-436E-AC26-8C3BED146F4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{A1D5661F-CE87-4D7D-A905-01ED1030E9BC}"
+	ProjectSection(SolutionItems) = preProject
+		Task1757_RecyclableAndLowFatProducts.sql = Task1757_RecyclableAndLowFatProducts.sql
+		Task175_CombineTwoTables.sql = Task175_CombineTwoTables.sql
+		Task183_CustomersWhoNeverOrder.sql = Task183_CustomersWhoNeverOrder.sql
+		Task1873_CalculateSpecialBonus.sql = Task1873_CalculateSpecialBonus.sql
+		Task196_DeleteDuplicateEmails.sql = Task196_DeleteDuplicateEmails.sql
+		Task584_FindCustomerReferee.sql = Task584_FindCustomerReferee.sql
+		Task595_BigCountries.sql = Task595_BigCountries.sql
+		Task627_SwapSalary.sql = Task627_SwapSalary.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -154,6 +168,7 @@ Global
 		{8E95A054-129C-4316-A586-E52ACDF1CF2C} = {0B55340B-50D7-48A4-A827-DD235054B914}
 		{929A6570-3070-4214-B42D-E5FAF3B2C34C} = {219C0D5D-B84D-4EF0-AD9A-CC2B26106505}
 		{7EB5E9CC-B715-45D2-9739-48C110F673F7} = {45C24CCD-F853-42E7-975B-F67E8003C864}
+		{A1D5661F-CE87-4D7D-A905-01ED1030E9BC} = {C9324E4D-F9BB-436E-AC26-8C3BED146F4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4555FD3-376B-4D00-B855-B54DDA1BEF81}
