@@ -6,7 +6,7 @@ using Xunit;
 
 namespace CSharpProblemsTests.Easy
 {
-    public class Tasks217_ContainsDuplicateTests
+    public class Task217_ContainsDuplicateTests
     {
         [Fact]
         public void ContainsDuplicate1()

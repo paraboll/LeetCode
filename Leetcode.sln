@@ -57,14 +57,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlTasks", "SqlTasks", "{C9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{A1D5661F-CE87-4D7D-A905-01ED1030E9BC}"
 	ProjectSection(SolutionItems) = preProject
-		Task1757_RecyclableAndLowFatProducts.sql = Task1757_RecyclableAndLowFatProducts.sql
-		Task175_CombineTwoTables.sql = Task175_CombineTwoTables.sql
-		Task183_CustomersWhoNeverOrder.sql = Task183_CustomersWhoNeverOrder.sql
-		Task1873_CalculateSpecialBonus.sql = Task1873_CalculateSpecialBonus.sql
-		Task196_DeleteDuplicateEmails.sql = Task196_DeleteDuplicateEmails.sql
-		Task584_FindCustomerReferee.sql = Task584_FindCustomerReferee.sql
-		Task595_BigCountries.sql = Task595_BigCountries.sql
-		Task627_SwapSalary.sql = Task627_SwapSalary.sql
+		Day10_Task1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql = Day10_Task1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql
+		Day10_Task1084_SalesAnalysisIII.sql = Day10_Task1084_SalesAnalysisIII.sql
+		Day10_Task1587_BankAccountSummaryII.sql = Day10_Task1587_BankAccountSummaryII.sql
+		Day10_Task182_DuplicateEmails.sql = Day10_Task182_DuplicateEmails.sql
+		src\SqlTasks\Easy\Day1_Task1757_RecyclableAndLowFatProducts.sql = src\SqlTasks\Easy\Day1_Task1757_RecyclableAndLowFatProducts.sql
+		src\SqlTasks\Easy\Day1_Task183_CustomersWhoNeverOrder.sql = src\SqlTasks\Easy\Day1_Task183_CustomersWhoNeverOrder.sql
+		src\SqlTasks\Easy\Day1_Task584_FindCustomerReferee.sql = src\SqlTasks\Easy\Day1_Task584_FindCustomerReferee.sql
+		src\SqlTasks\Easy\Day1_Task595_BigCountries.sql = src\SqlTasks\Easy\Day1_Task595_BigCountries.sql
+		src\SqlTasks\Easy\Day2_Task1873_CalculateSpecialBonus.sql = src\SqlTasks\Easy\Day2_Task1873_CalculateSpecialBonus.sql
+		src\SqlTasks\Easy\Day2_Task196_DeleteDuplicateEmails.sql = src\SqlTasks\Easy\Day2_Task196_DeleteDuplicateEmails.sql
+		src\SqlTasks\Easy\Day2_Task627_SwapSalary.sql = src\SqlTasks\Easy\Day2_Task627_SwapSalary.sql
+		src\SqlTasks\Easy\Day3_Task1484_GroupSoldProductsByTheDate.sql = src\SqlTasks\Easy\Day3_Task1484_GroupSoldProductsByTheDate.sql
+		src\SqlTasks\Easy\Day3_Task1527_PatientsWithACondition.sql = src\SqlTasks\Easy\Day3_Task1527_PatientsWithACondition.sql
+		src\SqlTasks\Easy\Day3_Task1667_FixNamesInATable.sql = src\SqlTasks\Easy\Day3_Task1667_FixNamesInATable.sql
+		src\SqlTasks\Easy\Day4_Task1965_EmployeesWithMissingInformation.sql = src\SqlTasks\Easy\Day4_Task1965_EmployeesWithMissingInformation.sql
+		src\SqlTasks\Easy\Day4Task1795_RearrangeProductsTable.sql = src\SqlTasks\Easy\Day4Task1795_RearrangeProductsTable.sql
+		src\SqlTasks\Easy\Day5_Task1148_ArticleViewsI.sql = src\SqlTasks\Easy\Day5_Task1148_ArticleViewsI.sql
+		src\SqlTasks\Easy\Day5_Task1581_CustomerWhoVisitedButDidNotMakeAnyTransactions.sql = src\SqlTasks\Easy\Day5_Task1581_CustomerWhoVisitedButDidNotMakeAnyTransactions.sql
+		src\SqlTasks\Easy\Day5Task175_CombineTwoTables.sql = src\SqlTasks\Easy\Day5Task175_CombineTwoTables.sql
+		src\SqlTasks\Easy\Day6_Task197_RisingTemperature.sql = src\SqlTasks\Easy\Day6_Task197_RisingTemperature.sql
+		src\SqlTasks\Easy\Day6_Task607_SalesPerson.sql = src\SqlTasks\Easy\Day6_Task607_SalesPerson.sql
+		src\SqlTasks\Easy\Day7_Task1141_UserActivityForThePast30DaysI.sql = src\SqlTasks\Easy\Day7_Task1141_UserActivityForThePast30DaysI.sql
+		src\SqlTasks\Easy\Day7_Task1693_DailyLeadsAndPartners.sql = src\SqlTasks\Easy\Day7_Task1693_DailyLeadsAndPartners.sql
+		src\SqlTasks\Easy\Day7_Task1729_FindFollowersCount.sql = src\SqlTasks\Easy\Day7_Task1729_FindFollowersCount.sql
+		Day8_Task1741_FindTotalTimeSpentByEachEmployee.sql = Day8_Task1741_FindTotalTimeSpentByEachEmployee.sql
+		Day8_Task1890_TheLatestLoginIn2020.sql = Day8_Task1890_TheLatestLoginIn2020.sql
+		Day8_Task511_GamePlayAnalysisI.sql = Day8_Task511_GamePlayAnalysisI.sql
+		Day8_Task586_CustomerPlacingTheLargestNumberOfOrders.sql = Day8_Task586_CustomerPlacingTheLargestNumberOfOrders.sql
+		Day9_Task1407_TopTravellers.sql = Day9_Task1407_TopTravellers.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{87B64699-8972-4E17-BB22-7FC514ED0818}"
+	ProjectSection(SolutionItems) = preProject
+		src\SqlTasks\Medium\Day4_Task176_SecondHighestSalary.sql = src\SqlTasks\Medium\Day4_Task176_SecondHighestSalary.sql
+		src\SqlTasks\Medium\Day4_Task608_TreeNode.sql = src\SqlTasks\Medium\Day4_Task608_TreeNode.sql
+		Day9_Task1158_MarketAnalysisI.sql = Day9_Task1158_MarketAnalysisI.sql
+		Day9_Task1393_CapitalGain_Loss.sql = Day9_Task1393_CapitalGain_Loss.sql
 	EndProjectSection
 EndProject
 Global
@@ -169,6 +198,7 @@ Global
 		{929A6570-3070-4214-B42D-E5FAF3B2C34C} = {219C0D5D-B84D-4EF0-AD9A-CC2B26106505}
 		{7EB5E9CC-B715-45D2-9739-48C110F673F7} = {45C24CCD-F853-42E7-975B-F67E8003C864}
 		{A1D5661F-CE87-4D7D-A905-01ED1030E9BC} = {C9324E4D-F9BB-436E-AC26-8C3BED146F4E}
+		{87B64699-8972-4E17-BB22-7FC514ED0818} = {C9324E4D-F9BB-436E-AC26-8C3BED146F4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4555FD3-376B-4D00-B855-B54DDA1BEF81}

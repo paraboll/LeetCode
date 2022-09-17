@@ -14,7 +14,7 @@ namespace CSharpProblemsTests.Medium
             var nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 
             var result = new Task53_MaximumSubarray()
-                                .MaxSubArray(nums);
+                                .MaxSubArrayGoodRead(nums);
 
             Assert.Equal(6, result);
         }

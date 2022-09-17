@@ -89,6 +89,20 @@ namespace CSharpProblems.Easy
             return null;
         }
 
+        // array: [ 1, 2, 3, 4, 5] target: 7
+
+        // | Итерация | i | nums[i] | j | nums[j] | result |    need result: 7
+        // + -------- + - + ------- + - + ------- + ------ +
+        // |    0     | - |    -    | - |    -    |    -   |
+        // |    1     | 0 |    1    | 1 |    2    |    3   |
+        // |    2     | 0 |    1    | 2 |    3    |    4   |
+        // |    3     | 0 |    1    | 3 |    4    |    5   |
+        // |    4     | 0 |    1    | 4 |    5    |    6   |
+        // |    5     | 1 |    2    | 2 |    3    |    5   |
+        // |    6     | 1 |    2    | 3 |    4    |    6   |
+        // |    7     | 1 |    2    | 4 |    5    |    7   |    result: 1, 4 - index
+        // + -------- + - + ------- + - + ------- + ------ +
+
         public int[] TwoPassHashTable(int[] nums, int target)
         {
             var map = new Dictionary<int, int>();

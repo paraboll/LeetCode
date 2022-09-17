@@ -78,5 +78,15 @@ namespace CSharpProblemsTests.Easy
 
             Assert.Equal(numbers, new int[] { 5, 11 });
         }
+
+        [Fact]
+        public void TwoSum8()
+        {
+            var array = new int[] { 1, 2, 3, 4, 5 };
+            int target = 7;
+            var numbers = new Task1_TwoSum().BruteForce(array, target);
+
+            Assert.Equal(numbers, new int[] { 1, 4 });
+        }
     }
 }

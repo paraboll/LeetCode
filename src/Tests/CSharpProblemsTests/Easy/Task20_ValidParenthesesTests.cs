@@ -63,5 +63,16 @@ namespace CSharpProblemsTests.Easy
             Assert.True(result);
         }
 
+        [Fact]
+        public void IsValid6()
+        {
+            var s = "{[](})";
+
+            var result = new Task20_ValidParentheses()
+                                .IsValid(s);
+
+            Assert.False(result);
+        }
+
     }
 }
