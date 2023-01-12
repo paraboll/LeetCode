@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharpProblems.Medium
 {
-    public class Task53_MaximumSubarray
+    public class DS1_Day1_Task53_MaximumSubarray
     {
         //TODO: расписать итерации для этих 2х методов.
 

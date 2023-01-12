@@ -28,7 +28,7 @@ namespace CSharpProblems.Easy
     //1 <= nums.length <= 105
     //-109 <= nums[i] <= 109
 
-    public class Task217_ContainsDuplicate
+    public class DS1_Day1_Task217_ContainsDuplicate
     {
         // Runtime: 326 ms, faster than 34.24% of C# online submissions for Contains Duplicate.
         // Memory Usage: 48.4 MB, less than 27.34% of C# online submissions for Contains Duplicate.

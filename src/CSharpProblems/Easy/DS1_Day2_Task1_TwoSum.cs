@@ -30,7 +30,7 @@ namespace CSharpProblems.Easy
 
     //Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
-    public class Task1_TwoSum
+    public class DS1_Day2_Task1_TwoSum
     {
         // Runtime: 368 ms, faster than 6.16% of C# online submissions for Two Sum.
         // Memory Usage: 42.6 MB, less than 87.83% of C# online submissions for Two Sum.

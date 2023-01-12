@@ -16,7 +16,7 @@ namespace CSharpProblemsTests.Easy
 
             var resultNums = new int[] { 2, 2 };
 
-            var result = new Task350_IntersectionOfTwoArraysII()
+            var result = new DS1_Day3_Task350_IntersectionOfTwoArraysII()
                                 .Intersect(nums1, nums2);
 
             Assert.Equal(resultNums, result);
@@ -30,7 +30,7 @@ namespace CSharpProblemsTests.Easy
 
             var resultNums = new int[] { 4, 9 };
 
-            var result = new Task350_IntersectionOfTwoArraysII()
+            var result = new DS1_Day3_Task350_IntersectionOfTwoArraysII()
                                 .Intersect(nums1, nums2);
 
             Assert.Equal(resultNums, result);

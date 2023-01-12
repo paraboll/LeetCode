@@ -15,7 +15,7 @@ namespace CSharpProblemsTests.Easy
             var nums2 = new int[] { 2, 5, 6 };
             int m = 3, n = 3;
 
-            new Task88_MergeSortedArray()
+            new DS1_Day2_Task88_MergeSortedArray()
                     .Merge(nums1, m, nums2, n);
 
             var ansver = new int[] { 1, 2, 2, 3, 5, 6 };

@@ -13,7 +13,7 @@ namespace CSharpProblemsTests.Easy
         {
             var nums1 = new int[] { 7, 1, 5, 3, 6, 4 };
 
-            var result = new Task121_BestTimeToBuyAndSellStock()
+            var result = new DS1_Day3_Task121_BestTimeToBuyAndSellStock()
                                 .MaxProfit(nums1);
 
             Assert.Equal(5, result);
@@ -24,7 +24,7 @@ namespace CSharpProblemsTests.Easy
         {
             var nums1 = new int[] { 7,6,4,3,1 };
 
-            var result = new Task121_BestTimeToBuyAndSellStock()
+            var result = new DS1_Day3_Task121_BestTimeToBuyAndSellStock()
                                 .MaxProfit(nums1);
 
             Assert.Equal(0, result);

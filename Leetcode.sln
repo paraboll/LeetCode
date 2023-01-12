@@ -57,10 +57,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlTasks", "SqlTasks", "{C9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{A1D5661F-CE87-4D7D-A905-01ED1030E9BC}"
 	ProjectSection(SolutionItems) = preProject
-		Day10_Task1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql = Day10_Task1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql
-		Day10_Task1084_SalesAnalysisIII.sql = Day10_Task1084_SalesAnalysisIII.sql
-		Day10_Task1587_BankAccountSummaryII.sql = Day10_Task1587_BankAccountSummaryII.sql
-		Day10_Task182_DuplicateEmails.sql = Day10_Task182_DuplicateEmails.sql
+		src\SqlTasks\Easy\Day10_Task1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql = src\SqlTasks\Easy\Day10_Task1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql
+		src\SqlTasks\Easy\Day10_Task1084_SalesAnalysisIII.sql = src\SqlTasks\Easy\Day10_Task1084_SalesAnalysisIII.sql
+		src\SqlTasks\Easy\Day10_Task1587_BankAccountSummaryII.sql = src\SqlTasks\Easy\Day10_Task1587_BankAccountSummaryII.sql
+		src\SqlTasks\Easy\Day10_Task182_DuplicateEmails.sql = src\SqlTasks\Easy\Day10_Task182_DuplicateEmails.sql
 		src\SqlTasks\Easy\Day1_Task1757_RecyclableAndLowFatProducts.sql = src\SqlTasks\Easy\Day1_Task1757_RecyclableAndLowFatProducts.sql
 		src\SqlTasks\Easy\Day1_Task183_CustomersWhoNeverOrder.sql = src\SqlTasks\Easy\Day1_Task183_CustomersWhoNeverOrder.sql
 		src\SqlTasks\Easy\Day1_Task584_FindCustomerReferee.sql = src\SqlTasks\Easy\Day1_Task584_FindCustomerReferee.sql
@@ -81,19 +81,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{A1D5661F-C
 		src\SqlTasks\Easy\Day7_Task1141_UserActivityForThePast30DaysI.sql = src\SqlTasks\Easy\Day7_Task1141_UserActivityForThePast30DaysI.sql
 		src\SqlTasks\Easy\Day7_Task1693_DailyLeadsAndPartners.sql = src\SqlTasks\Easy\Day7_Task1693_DailyLeadsAndPartners.sql
 		src\SqlTasks\Easy\Day7_Task1729_FindFollowersCount.sql = src\SqlTasks\Easy\Day7_Task1729_FindFollowersCount.sql
-		Day8_Task1741_FindTotalTimeSpentByEachEmployee.sql = Day8_Task1741_FindTotalTimeSpentByEachEmployee.sql
-		Day8_Task1890_TheLatestLoginIn2020.sql = Day8_Task1890_TheLatestLoginIn2020.sql
-		Day8_Task511_GamePlayAnalysisI.sql = Day8_Task511_GamePlayAnalysisI.sql
-		Day8_Task586_CustomerPlacingTheLargestNumberOfOrders.sql = Day8_Task586_CustomerPlacingTheLargestNumberOfOrders.sql
-		Day9_Task1407_TopTravellers.sql = Day9_Task1407_TopTravellers.sql
+		src\SqlTasks\Easy\Day8_Task1741_FindTotalTimeSpentByEachEmployee.sql = src\SqlTasks\Easy\Day8_Task1741_FindTotalTimeSpentByEachEmployee.sql
+		src\SqlTasks\Easy\Day8_Task1890_TheLatestLoginIn2020.sql = src\SqlTasks\Easy\Day8_Task1890_TheLatestLoginIn2020.sql
+		src\SqlTasks\Easy\Day8_Task511_GamePlayAnalysisI.sql = src\SqlTasks\Easy\Day8_Task511_GamePlayAnalysisI.sql
+		src\SqlTasks\Easy\Day8_Task586_CustomerPlacingTheLargestNumberOfOrders.sql = src\SqlTasks\Easy\Day8_Task586_CustomerPlacingTheLargestNumberOfOrders.sql
+		src\SqlTasks\Easy\Day9_Task1407_TopTravellers.sql = src\SqlTasks\Easy\Day9_Task1407_TopTravellers.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{87B64699-8972-4E17-BB22-7FC514ED0818}"
 	ProjectSection(SolutionItems) = preProject
 		src\SqlTasks\Medium\Day4_Task176_SecondHighestSalary.sql = src\SqlTasks\Medium\Day4_Task176_SecondHighestSalary.sql
 		src\SqlTasks\Medium\Day4_Task608_TreeNode.sql = src\SqlTasks\Medium\Day4_Task608_TreeNode.sql
-		Day9_Task1158_MarketAnalysisI.sql = Day9_Task1158_MarketAnalysisI.sql
-		Day9_Task1393_CapitalGain_Loss.sql = Day9_Task1393_CapitalGain_Loss.sql
+		src\SqlTasks\Medium\Day9_Task1158_MarketAnalysisI.sql = src\SqlTasks\Medium\Day9_Task1158_MarketAnalysisI.sql
+		src\SqlTasks\Medium\Day9_Task1393_CapitalGain_Loss.sql = src\SqlTasks\Medium\Day9_Task1393_CapitalGain_Loss.sql
 	EndProjectSection
 EndProject
 Global

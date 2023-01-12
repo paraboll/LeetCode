@@ -13,7 +13,7 @@ namespace CSharpProblemsTests.Medium
         {
             var nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 
-            var result = new Task53_MaximumSubarray()
+            var result = new DS1_Day1_Task53_MaximumSubarray()
                                 .MaxSubArrayGoodRead(nums);
 
             Assert.Equal(6, result);
@@ -24,7 +24,7 @@ namespace CSharpProblemsTests.Medium
         {
             var nums = new int[] { 5, 4, -1, 7, 8 };
 
-            var result = new Task53_MaximumSubarray()
+            var result = new DS1_Day1_Task53_MaximumSubarray()
                                 .MaxSubArray(nums);
 
             Assert.Equal(23, result);

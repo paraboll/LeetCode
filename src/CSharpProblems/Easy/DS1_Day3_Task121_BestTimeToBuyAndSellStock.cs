@@ -30,7 +30,7 @@ namespace CSharpProblems.Easy
     //Constraints:
     //    1 <= prices.length <= 105
     //    0 <= prices[i] <= 104
-    public class Task121_BestTimeToBuyAndSellStock
+    public class DS1_Day3_Task121_BestTimeToBuyAndSellStock
     {
         // Runtime: 244 ms, faster than 91.29% of C# online submissions for Best Time to Buy and Sell Stock.
         // Memory Usage: 49.6 MB, less than 10.05% of C# online submissions for Best Time to Buy and Sell Stock.

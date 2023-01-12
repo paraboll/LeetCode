@@ -49,7 +49,7 @@ namespace CSharpProblems.Easy
     //Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 
     //разобрать.
-    public class Task88_MergeSortedArray
+    public class DS1_Day2_Task88_MergeSortedArray
     {
         // Runtime: 247 ms, faster than 15.43% of C# online submissions for Merge Sorted Array.
         // Memory Usage: 41.5 MB, less than 45.25% of C# online submissions for Merge Sorted Array.

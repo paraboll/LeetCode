@@ -13,7 +13,7 @@ namespace CSharpProblemsTests.Easy
         {
             var nums = new int[] { 1, 2, 3, 1 };
 
-            var result = new Task217_ContainsDuplicate()
+            var result = new DS1_Day1_Task217_ContainsDuplicate()
                                 .ContainsDuplicate(nums);
 
             Assert.True(result);
@@ -24,7 +24,7 @@ namespace CSharpProblemsTests.Easy
         {
             var nums = new int[] {1,2,3,4 };
 
-            var result = new Task217_ContainsDuplicate()
+            var result = new DS1_Day1_Task217_ContainsDuplicate()
                                 .ContainsDuplicate(nums);
 
             Assert.False(result);
@@ -36,7 +36,7 @@ namespace CSharpProblemsTests.Easy
         {
             var nums = new int[] { 1,1,1,3,3,4,3,2,4,2 };
 
-            var result = new Task217_ContainsDuplicate()
+            var result = new DS1_Day1_Task217_ContainsDuplicate()
                                 .ContainsDuplicate(nums);
 
             Assert.True(result);

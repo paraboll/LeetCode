@@ -23,7 +23,7 @@ namespace CSharpProblems.Easy
     //Constraints:
     //    1 <= nums1.length, nums2.length <= 1000
     //    0 <= nums1[i], nums2[i] <= 1000
-    public class Task350_IntersectionOfTwoArraysII
+    public class DS1_Day3_Task350_IntersectionOfTwoArraysII
     {
         // Runtime: 267 ms, faster than 11.21% of C# online submissions for Intersection of Two Arrays II.
         // Memory Usage: 41.4 MB, less than 95.44% of C# online submissions for Intersection of Two Arrays II.
