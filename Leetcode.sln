@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ozon", "Ozon", "{01A8E500-0A83-48C8-9055-138925EC2EDE}"
 EndProject
@@ -71,11 +71,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{A1D5661F-C
 		src\SqlTasks\Easy\Day3_Task1484_GroupSoldProductsByTheDate.sql = src\SqlTasks\Easy\Day3_Task1484_GroupSoldProductsByTheDate.sql
 		src\SqlTasks\Easy\Day3_Task1527_PatientsWithACondition.sql = src\SqlTasks\Easy\Day3_Task1527_PatientsWithACondition.sql
 		src\SqlTasks\Easy\Day3_Task1667_FixNamesInATable.sql = src\SqlTasks\Easy\Day3_Task1667_FixNamesInATable.sql
-		src\SqlTasks\Easy\Day4_Task1965_EmployeesWithMissingInformation.sql = src\SqlTasks\Easy\Day4_Task1965_EmployeesWithMissingInformation.sql
 		src\SqlTasks\Easy\Day4Task1795_RearrangeProductsTable.sql = src\SqlTasks\Easy\Day4Task1795_RearrangeProductsTable.sql
+		src\SqlTasks\Easy\Day4_Task1965_EmployeesWithMissingInformation.sql = src\SqlTasks\Easy\Day4_Task1965_EmployeesWithMissingInformation.sql
+		src\SqlTasks\Easy\Day5Task175_CombineTwoTables.sql = src\SqlTasks\Easy\Day5Task175_CombineTwoTables.sql
 		src\SqlTasks\Easy\Day5_Task1148_ArticleViewsI.sql = src\SqlTasks\Easy\Day5_Task1148_ArticleViewsI.sql
 		src\SqlTasks\Easy\Day5_Task1581_CustomerWhoVisitedButDidNotMakeAnyTransactions.sql = src\SqlTasks\Easy\Day5_Task1581_CustomerWhoVisitedButDidNotMakeAnyTransactions.sql
-		src\SqlTasks\Easy\Day5Task175_CombineTwoTables.sql = src\SqlTasks\Easy\Day5Task175_CombineTwoTables.sql
 		src\SqlTasks\Easy\Day6_Task197_RisingTemperature.sql = src\SqlTasks\Easy\Day6_Task197_RisingTemperature.sql
 		src\SqlTasks\Easy\Day6_Task607_SalesPerson.sql = src\SqlTasks\Easy\Day6_Task607_SalesPerson.sql
 		src\SqlTasks\Easy\Day7_Task1141_UserActivityForThePast30DaysI.sql = src\SqlTasks\Easy\Day7_Task1141_UserActivityForThePast30DaysI.sql
@@ -94,6 +94,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{87B646
 		src\SqlTasks\Medium\Day4_Task608_TreeNode.sql = src\SqlTasks\Medium\Day4_Task608_TreeNode.sql
 		src\SqlTasks\Medium\Day9_Task1158_MarketAnalysisI.sql = src\SqlTasks\Medium\Day9_Task1158_MarketAnalysisI.sql
 		src\SqlTasks\Medium\Day9_Task1393_CapitalGain_Loss.sql = src\SqlTasks\Medium\Day9_Task1393_CapitalGain_Loss.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{1235B42A-4DEC-4EB2-9116-74E667554051}"
+	ProjectSection(SolutionItems) = preProject
+		src\Notes.txt = src\Notes.txt
 	EndProjectSection
 EndProject
 Global
